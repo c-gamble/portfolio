@@ -14,7 +14,9 @@ export default function Home() {
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
-                backgroundImage: 'linear-gradient(to right, #DEE4EA, #F9FCFF)',
+                backgroundImage:
+                    'linear-gradient(90deg, #536976 0%, #292E49 100%)',
+                color: 'white',
             }}
         >
             <p
