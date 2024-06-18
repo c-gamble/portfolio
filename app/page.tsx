@@ -8,15 +8,10 @@ export default function Home() {
         <motion.div
             className="font-noto"
             style={{
-                height: '100vh',
-                width: '100vw',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
-                backgroundImage:
-                    'linear-gradient(90deg, #536976 0%, #292E49 100%)',
-                color: 'white',
             }}
         >
             <p
