@@ -34,6 +34,7 @@ export const metadata: Metadata = {
 };
 
 import { Navbar } from '@/components/Navbar';
+import { Footer } from '@/components/Footer';
 
 export default function RootLayout({
     children,
@@ -42,17 +43,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body
-                className={`${NotoSans.variable}`}
-                style={{
-                    backgroundImage:
-                        'linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%)',
-                    color: 'black',
-                    height: '100vh',
-                    width: '100vw',
-                }}
-            >
+            <body className={`${NotoSans.variable}`}>
                 <Navbar />
+                {children}
+                <Footer />
             </body>
         </html>
     );
