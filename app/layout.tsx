@@ -24,6 +24,10 @@ const NotoSans = localFont({
             weight: '700',
             style: 'italic',
         },
+        {
+            path: '../public/assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf',
+            weight: '500',
+        },
     ],
     variable: '--noto-sans',
 });

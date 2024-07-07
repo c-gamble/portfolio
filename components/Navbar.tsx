@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { useThemeStore } from '@/store/root';
 import { usePathname } from 'next/navigation';
 import { NavLink } from '@/components/NavLink';
+import styles from '@/styles/NavLink.module.css';
 
 import MainHeadshot from '@/public/assets/images/main-headshot.jpeg';
 import X from '@/public/assets/icons/x.svg';
@@ -27,13 +28,6 @@ export const Navbar = () => {
     };
 
     const isActive = (path: string) => pathname === path;
-
-    const linkStyle = (path: string) => ({
-        marginRight: '20px',
-        color: isDarkMode ? '#ffffff' : '#000000',
-        textDecoration: isActive(path) ? 'underline' : 'none',
-        textUnderlineOffset: '5px',
-    });
 
     return (
         <motion.div
@@ -181,35 +175,43 @@ export const Navbar = () => {
                 <NavLink
                     href="/"
                     isDarkMode={isDarkMode}
-                    className={isActive('/') ? 'active' : ''}
+                    className={isActive('/') ? styles.active : ''}
                 >
                     home
                 </NavLink>
+                {/* projects, cv, writing, gallery, contact */}
                 <NavLink
                     href="/projects"
                     isDarkMode={isDarkMode}
-                    className={isActive('/projects') ? 'active' : ''}
+                    className={isActive('/projects') ? styles.active : ''}
                 >
                     projects
                 </NavLink>
                 <NavLink
                     href="/cv"
                     isDarkMode={isDarkMode}
-                    className={isActive('/cv') ? 'active' : ''}
+                    className={isActive('/cv') ? styles.active : ''}
                 >
                     cv
                 </NavLink>
                 <NavLink
+                    href="/writing"
+                    isDarkMode={isDarkMode}
+                    className={isActive('/writing') ? styles.active : ''}
+                >
+                    writing
+                </NavLink>
+                <NavLink
                     href="/gallery"
                     isDarkMode={isDarkMode}
-                    className={isActive('/gallery') ? 'active' : ''}
+                    className={isActive('/gallery') ? styles.active : ''}
                 >
                     gallery
                 </NavLink>
                 <NavLink
                     href="/contact"
                     isDarkMode={isDarkMode}
-                    className={isActive('/contact') ? 'active' : ''}
+                    className={isActive('/contact') ? styles.active : ''}
                 >
                     contact
                 </NavLink>

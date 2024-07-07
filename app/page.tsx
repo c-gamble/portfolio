@@ -39,7 +39,7 @@ export default function Home() {
                     hi, i'm cooper! i'm studying cs and biophysics at usc and
                     currently taking a gap semester in sf to build{' '}
                     <Link
-                        href="https://algorhythm.us"
+                        href="https://algorhythm.app"
                         target="_blank"
                         style={{
                             color: isDarkMode ? '#ffffff' : '#000000',
@@ -50,7 +50,7 @@ export default function Home() {
                     </Link>{' '}
                     and work at{' '}
                     <Link
-                        href="https://krav.trade"
+                        href="https://docs.krav.trade"
                         target="_blank"
                         style={{
                             color: isDarkMode ? '#ffffff' : '#000000',

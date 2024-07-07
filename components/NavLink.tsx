@@ -1,29 +1,29 @@
-import styled from '@emotion/styled';
+// NavLink.tsx
 import Link from 'next/link';
+import { ReactNode } from 'react';
+import styles from '@/styles/NavLink.module.css';
 
-export const NavLink = styled(Link)`
-    margin-right: 20px;
-    color: ${(props: any) => (props.isDarkMode ? '#ffffff' : '#000000')};
-    text-decoration: none;
-    position: relative;
-    transition: color 0.3s ease;
+interface NavLinkProps {
+    href: string;
+    isDarkMode: boolean;
+    children: ReactNode;
+    className?: string;
+}
 
-    &::after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        bottom: -5px;
-        left: 0;
-        background-color: ${(props: any) =>
-            props.isDarkMode ? '#ffffff' : '#000000'};
-        transform: scaleX(0);
-        transform-origin: bottom right;
-        transition: transform 0.3s ease;
-    }
+export const NavLink: React.FC<NavLinkProps> = ({
+    href,
+    isDarkMode,
+    children,
+    className,
+}) => {
+    const themeClass = isDarkMode ? styles.dark : styles.light;
 
-    &.active::after {
-        transform: scaleX(1);
-        transform-origin: bottom left;
-    }
-`;
+    return (
+        <Link
+            href={href}
+            className={`${styles.navLink} ${themeClass} ${className || ''}`}
+        >
+            {children}
+        </Link>
+    );
+};
