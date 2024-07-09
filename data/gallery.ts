@@ -8,7 +8,6 @@ import LAMarathon from '../public/assets/images/gallery/la-marathon.jpeg';
 import LandsEnd from '../public/assets/images/gallery/lands-end.jpeg';
 import MICC from '../public/assets/images/gallery/micc.jpeg';
 import MissionPeak from '../public/assets/images/gallery/mission-peak.jpeg';
-import NVSC from '../public/assets/images/gallery/nvsc.jpg';
 import Reunion from '../public/assets/images/gallery/reunion.jpeg';
 import SpringBreakSunset from '../public/assets/images/gallery/spring-break-sunset.jpeg';
 import SpringBreak from '../public/assets/images/gallery/spring-break.jpeg';
@@ -59,11 +58,6 @@ export const galleryList = [
     {
         image: SpringBreakSunset,
         description: 'beautiful sunset during our first evening row',
-    },
-    {
-        image: NVSC,
-        description:
-            "zach and i's first pitch for algorhythm. taken in his dorm 15 minutes before",
     },
     {
         image: MICC,
