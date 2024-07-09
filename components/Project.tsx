@@ -253,17 +253,19 @@ export default function Project(params: ProjectProps) {
                 <motion.div
                     style={{
                         display: 'flex',
-                        flexDirection: 'row',
-                        justifyContent: 'space-between',
-                        padding: '4px 0px',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        alignItems: 'flex-start',
                         width: '100%',
+                        padding: '4px 0px',
                     }}
                 >
                     <p
                         style={{
                             fontSize: '16px',
                             fontWeight: 500,
-                            maxWidth: '30%', // Reduced from 50% to give more space for skills
+                            maxWidth: '100%',
+                            margin: 0,
                         }}
                     >
                         {params.title}
@@ -271,12 +273,11 @@ export default function Project(params: ProjectProps) {
                     <motion.div
                         style={{
                             display: 'flex',
-                            flexDirection: 'row', // Corrected value
-                            flexWrap: 'wrap', // Added flexWrap property
-                            justifyContent: 'flex-end',
+                            flexDirection: 'row',
+                            flexWrap: 'wrap',
+                            justifyContent: 'flex-start',
                             alignItems: 'center',
-                            marginLeft: '10px',
-                            maxWidth: '70%', // Increased from 50% to allow more space for wrapping
+                            maxWidth: '100%',
                         }}
                     >
                         {params.skills.map((skill, index) => (
@@ -284,7 +285,8 @@ export default function Project(params: ProjectProps) {
                                 key={index}
                                 style={{
                                     whiteSpace: 'nowrap',
-                                    margin: '2px 5px', // Added vertical margin and reduced horizontal margin
+                                    marginRight: '5px',
+                                    marginTop: '4px',
                                     fontSize: '10px',
                                     fontWeight: 500,
                                     background: params.isDarkMode
@@ -307,6 +309,7 @@ export default function Project(params: ProjectProps) {
                         ))}
                     </motion.div>
                 </motion.div>
+
                 {/* <motion.div
                     style={{
                         display: 'flex',
