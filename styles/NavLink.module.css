@@ -1,0 +1,40 @@
+/* NavLink.module.css */
+.navLink {
+    margin-right: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navLink::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: none;
+}
+
+.navLink.active::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease;
+}
+
+.light {
+    color: #000000;
+}
+
+.light::after {
+    background-color: #000000;
+}
+
+.dark {
+    color: #ffffff;
+}
+
+.dark::after {
+    background-color: #ffffff;
+}
