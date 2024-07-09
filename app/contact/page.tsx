@@ -30,8 +30,8 @@ export default function Contact() {
                         textAlign: 'center',
                     }}
                 >
-                    i'm always open to chat! feel free to reach out to me at{' '}
-                    <a href="mailto:cgamble@usc.edu">cgamble@usc.edu</a>
+                    i&apos;m always open to chat! feel free to reach out to me
+                    at <a href="mailto:cgamble@usc.edu">cgamble@usc.edu</a>
                 </p>
             </motion.div>
         </motion.div>

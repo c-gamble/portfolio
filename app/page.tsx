@@ -72,8 +72,8 @@ export default function Home() {
                 <div style={{ height: '25px' }} />
                 <p>
                     people often ask me what my life goal(s) is/are, and my
-                    answer is always the same: "i&apos;m still figuring it
-                    out..."
+                    answer is always the same: &quot;i&apos;m still figuring it
+                    out...&quot;
                 </p>
                 <div style={{ height: '25px' }} />
                 <p>
@@ -147,8 +147,8 @@ export default function Home() {
                 <div style={{ height: '25px' }} />
                 <p>
                     people often ask me what my life goal(s) is/are, and my
-                    answer is always the same: "i&apos;m still figuring it
-                    out..."
+                    answer is always the same: &quot;i&apos;m still figuring it
+                    out...&quot;
                 </p>
                 <div style={{ height: '25px' }} />
                 <p>
