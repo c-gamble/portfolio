@@ -39,6 +39,7 @@ export const metadata: Metadata = {
 
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { Window } from '@/components/Window';
 
 export default function RootLayout({
     children,
@@ -48,6 +49,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${NotoSans.variable}`}>
+                <Window />
                 <Navbar />
                 {children}
                 <Footer />

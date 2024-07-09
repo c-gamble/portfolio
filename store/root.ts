@@ -1,11 +1,23 @@
 import { create } from 'zustand';
 
-interface ThemeStore {
-    isDarkMode: boolean;
-    toggleTheme: () => void;
+interface WindowDimensions {
+    width: number;
+    height: number;
 }
 
-export const useThemeStore = create<ThemeStore>((set) => ({
+interface ThemeStore {
+    isDarkMode: boolean;
+    windowDimensions: WindowDimensions;
+    toggleTheme: () => void;
+    setWindowDimensions: (dimensions: WindowDimensions) => void;
+}
+
+export const useGlobalStore = create<ThemeStore>((set) => ({
     isDarkMode: false,
+    windowDimensions: {
+        width: typeof window !== 'undefined' ? window.innerWidth : 0,
+        height: typeof window !== 'undefined' ? window.innerHeight : 0,
+    },
     toggleTheme: () => set((state) => ({ isDarkMode: !state.isDarkMode })),
+    setWindowDimensions: (dimensions) => set({ windowDimensions: dimensions }),
 }));

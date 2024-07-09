@@ -3,10 +3,10 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useThemeStore } from '@/store/root';
+import { useGlobalStore } from '@/store/root';
 
 export const Footer = () => {
-    const { isDarkMode } = useThemeStore();
+    const { isDarkMode } = useGlobalStore();
 
     return (
         <motion.div

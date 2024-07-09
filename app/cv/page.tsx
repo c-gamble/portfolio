@@ -1,10 +1,10 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useThemeStore } from '@/store/root';
+import { useGlobalStore } from '@/store/root';
 
 export default function CV() {
-    const { isDarkMode } = useThemeStore();
+    const { isDarkMode } = useGlobalStore();
 
     return (
         <motion.div

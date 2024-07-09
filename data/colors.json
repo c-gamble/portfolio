@@ -1,0 +1,68 @@
+{
+  "rust": {
+    "darkTextColor": "rgba(215, 255, 243, 1)",
+    "darkBackgroundColor": "rgba(72, 95, 81, 0.3)",
+    "lightTextColor": "rgba(86, 114, 97, 1)",
+    "lightBackgroundColor": "rgba(143, 190, 162, 0.3)"
+  },
+  "solidity": {
+    "darkTextColor": "rgba(150, 218, 191, 1)",
+    "darkBackgroundColor": "rgba(50, 73, 64, 0.3)",
+    "lightTextColor": "rgba(60, 87, 76, 1)",
+    "lightBackgroundColor": "rgba(100, 145, 127, 0.3)"
+  },
+  "zero-knowledge": {
+    "darkTextColor": "rgba(200, 255, 47, 1)",
+    "darkBackgroundColor": "rgba(67, 125, 16, 0.3)",
+    "lightTextColor": "rgba(80, 149, 19, 1)",
+    "lightBackgroundColor": "rgba(133, 249, 31, 0.3)"
+  },
+  "typescript": {
+    "darkTextColor": "rgba(155, 255, 225, 1)",
+    "darkBackgroundColor": "rgba(52, 98, 75, 0.3)",
+    "lightTextColor": "rgba(62, 118, 90, 1)",
+    "lightBackgroundColor": "rgba(103, 196, 150, 0.3)"
+  },
+  "reverse engineering": {
+    "darkTextColor": "rgba(197, 255, 53, 1)",
+    "darkBackgroundColor": "rgba(66, 99, 18, 0.3)",
+    "lightTextColor": "rgba(79, 118, 21, 1)",
+    "lightBackgroundColor": "rgba(131, 197, 35, 0.3)"
+  },
+  "frames.js": {
+    "darkTextColor": "rgba(255, 248, 255, 1)",
+    "darkBackgroundColor": "rgba(99, 83, 98, 0.3)",
+    "lightTextColor": "rgba(119, 99, 117, 1)",
+    "lightBackgroundColor": "rgba(198, 165, 195, 0.3)"
+  },
+  "next.js": {
+    "darkTextColor": "rgba(185, 255, 117, 1)",
+    "darkBackgroundColor": "rgba(62, 108, 39, 0.3)",
+    "lightTextColor": "rgba(74, 129, 47, 1)",
+    "lightBackgroundColor": "rgba(123, 215, 78, 0.3)"
+  },
+  "chainbase": {
+    "darkTextColor": "rgba(255, 231, 56, 1)",
+    "darkBackgroundColor": "rgba(117, 77, 19, 0.3)",
+    "lightTextColor": "rgba(140, 92, 22, 1)",
+    "lightBackgroundColor": "rgba(234, 154, 37, 0.3)"
+  },
+  "tokenomics": {
+    "darkTextColor": "rgba(161, 255, 44, 1)",
+    "darkBackgroundColor": "rgba(54, 122, 15, 0.3)",
+    "lightTextColor": "rgba(64, 146, 17, 1)",
+    "lightBackgroundColor": "rgba(107, 243, 29, 0.3)"
+  },
+  "": {
+    "darkTextColor": "rgba(255, 198, 201, 1)",
+    "darkBackgroundColor": "rgba(85, 66, 67, 0.3)",
+    "lightTextColor": "rgba(102, 79, 80, 1)",
+    "lightBackgroundColor": "rgba(170, 132, 134, 0.3)"
+  },
+  "openai": {
+    "darkTextColor": "rgba(228, 255, 191, 1)",
+    "darkBackgroundColor": "rgba(76, 99, 64, 0.3)",
+    "lightTextColor": "rgba(91, 118, 76, 1)",
+    "lightBackgroundColor": "rgba(152, 197, 127, 0.3)"
+  }
+}
