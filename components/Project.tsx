@@ -43,7 +43,7 @@ export default function Project(params: ProjectProps) {
                     flexDirection: 'row',
                     justifyContent: 'space-between',
                     borderBottom: `1px dotted ${
-                        params.isDarkMode ? '#ffffff' : '#000000'
+                        params.isDarkMode ? '#FFF5EA' : '#1c1c1c'
                     }`,
                 }}
             >
@@ -82,15 +82,15 @@ export default function Project(params: ProjectProps) {
                                     fontWeight: 500,
                                     background: params.isDarkMode
                                         ? params.colors?.get(skill as any)
-                                              ?.darkBackgroundColor || '#000000'
+                                              ?.darkBackgroundColor || '#1c1c1c'
                                         : params.colors?.get(skill as any)
                                               ?.lightBackgroundColor ||
-                                          '#ffffff',
+                                          '#FFF5EA',
                                     color: params.isDarkMode
                                         ? params.colors?.get(skill as any)
-                                              ?.darkTextColor || '#ffffff'
+                                              ?.darkTextColor || '#FFF5EA'
                                         : params.colors?.get(skill as any)
-                                              ?.lightTextColor || '#000000',
+                                              ?.lightTextColor || '#1c1c1c',
                                     padding: '4px 8px',
                                     borderRadius: '8px',
                                 }}
@@ -246,7 +246,7 @@ export default function Project(params: ProjectProps) {
                     flexDirection: 'row',
                     justifyContent: 'space-between',
                     borderBottom: `1px dotted ${
-                        params.isDarkMode ? '#ffffff' : '#000000'
+                        params.isDarkMode ? '#FFF5EA' : '#1c1c1c'
                     }`,
                 }}
             >
@@ -291,15 +291,15 @@ export default function Project(params: ProjectProps) {
                                     fontWeight: 500,
                                     background: params.isDarkMode
                                         ? params.colors?.get(skill as any)
-                                              ?.darkBackgroundColor || '#000000'
+                                              ?.darkBackgroundColor || '#1c1c1c'
                                         : params.colors?.get(skill as any)
                                               ?.lightBackgroundColor ||
-                                          '#ffffff',
+                                          '#FFF5EA',
                                     color: params.isDarkMode
                                         ? params.colors?.get(skill as any)
-                                              ?.darkTextColor || '#ffffff'
+                                              ?.darkTextColor || '#FFF5EA'
                                         : params.colors?.get(skill as any)
-                                              ?.lightTextColor || '#000000',
+                                              ?.lightTextColor || '#1c1c1c',
                                     padding: '4px 8px',
                                     borderRadius: '8px',
                                 }}

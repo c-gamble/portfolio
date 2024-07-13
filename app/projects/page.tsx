@@ -58,13 +58,13 @@ export default function Projects() {
         <motion.div
             style={{
                 background: isDarkMode
-                    ? '#000000'
+                    ? '#1c1c1c'
                     : 'linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%)',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'flex-start',
                 alignItems: 'center',
-                color: isDarkMode ? '#ffffff' : '#000000',
+                color: isDarkMode ? '#FFF5EA' : '#1c1c1c',
                 fontSize: '24px',
                 minHeight: 'calc(100vh - 115px)',
             }}
@@ -114,33 +114,33 @@ export default function Projects() {
                                 fontSize: '12px',
                                 background:
                                     selectedTags.includes(tag) && isDarkMode
-                                        ? '#ffffff'
+                                        ? '#FFF5EA'
                                         : selectedTags.includes(tag)
-                                        ? '#000000'
+                                        ? '#1c1c1c'
                                         : tag === 'complete'
                                         ? 'rgba(0, 255, 0, 0.3)'
                                         : tag === 'active'
                                         ? 'rgba(255, 0, 0, 0.3)'
                                         : isDarkMode
                                         ? colors?.get(tag as any)
-                                              ?.darkBackgroundColor || '#000000'
+                                              ?.darkBackgroundColor || '#1c1c1c'
                                         : colors?.get(tag as any)
                                               ?.lightBackgroundColor ||
-                                          '#ffffff',
+                                          '#FFF5EA',
                                 color:
                                     selectedTags.includes(tag) && isDarkMode
-                                        ? '#000000'
+                                        ? '#1c1c1c'
                                         : selectedTags.includes(tag)
-                                        ? '#ffffff'
+                                        ? '#FFF5EA'
                                         : tag === 'complete'
                                         ? 'rgba(0, 255, 0, 1)'
                                         : tag === 'active'
                                         ? 'rgba(255, 0, 0, 1)'
                                         : isDarkMode
                                         ? colors?.get(tag as any)
-                                              ?.darkTextColor || '#ffffff'
+                                              ?.darkTextColor || '#FFF5EA'
                                         : colors?.get(tag as any)
-                                              ?.lightTextColor || '#000000',
+                                              ?.lightTextColor || '#1c1c1c',
                                 cursor: 'pointer',
                             }}
                             onClick={() => handleTagClick(tag)}

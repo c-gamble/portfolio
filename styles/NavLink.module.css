@@ -24,17 +24,17 @@
 }
 
 .light {
-    color: #000000;
+    color: #1c1c1c;
 }
 
 .light::after {
-    background-color: #000000;
+    background-color: #7e8cf9;
 }
 
 .dark {
-    color: #ffffff;
+    color: #fff5ea;
 }
 
 .dark::after {
-    background-color: #ffffff;
+    background-color: #7e8cf9;
 }

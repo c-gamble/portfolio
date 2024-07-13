@@ -13,7 +13,7 @@ export default function Home() {
         <motion.div
             style={{
                 background: isDarkMode
-                    ? '#000000'
+                    ? '#1c1c1c'
                     : 'linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%)',
                 display: 'flex',
                 flexDirection: 'column',
@@ -21,7 +21,7 @@ export default function Home() {
                 width: '100vw',
                 justifyContent: 'flex-start',
                 alignItems: 'center',
-                color: isDarkMode ? '#ffffff' : '#000000',
+                color: isDarkMode ? '#FFF5EA' : '#1c1c1c',
                 fontSize: '20px',
             }}
         >
@@ -37,13 +37,26 @@ export default function Home() {
                         textAlign: 'left',
                     }}
                 >
-                    hi, i&apos;m cooper! i&apos;m studying cs and biophysics at
-                    usc and currently taking a gap semester in sf to build{' '}
+                    hi, i&apos;m{' '}
+                    <span
+                        style={{
+                            color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
+                            fontWeight: 500,
+                        }}
+                    >
+                        Cooper.
+                    </span>{' '}
+                    i&apos;m studying cs and biophysics at usc.
+                </p>
+                <div style={{ height: '25px' }} />
+                <p>
+                    i am currently taking a gap semester in sf to build{' '}
                     <Link
                         href="https://algorhythm.app"
                         target="_blank"
                         style={{
-                            color: isDarkMode ? '#ffffff' : '#000000',
+                            color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
+                            fontWeight: 500,
                             textDecoration: 'underline',
                         }}
                     >
@@ -54,7 +67,8 @@ export default function Home() {
                         href="https://docs.krav.trade"
                         target="_blank"
                         style={{
-                            color: isDarkMode ? '#ffffff' : '#000000',
+                            color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
+                            fontWeight: 500,
                             textDecoration: 'underline',
                         }}
                     >
@@ -88,7 +102,7 @@ export default function Home() {
         <motion.div
             style={{
                 background: isDarkMode
-                    ? '#000000'
+                    ? '#1c1c1c'
                     : 'linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%)',
                 display: 'flex',
                 flexDirection: 'column',
@@ -96,7 +110,7 @@ export default function Home() {
                 width: '100vw',
                 justifyContent: 'flex-start',
                 alignItems: 'center',
-                color: isDarkMode ? '#ffffff' : '#000000',
+                color: isDarkMode ? '#FFF5EA' : '#1c1c1c',
                 fontSize: '20px',
             }}
         >
@@ -112,13 +126,27 @@ export default function Home() {
                         textAlign: 'left',
                     }}
                 >
-                    hi, i&apos;m cooper! i&apos;m studying cs and biophysics at
-                    usc and currently taking a gap semester in sf to build{' '}
+                    hi, i&apos;m{' '}
+                    <span
+                        style={{
+                            color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
+                            fontWeight: 500,
+                        }}
+                    >
+                        Cooper.
+                    </span>{' '}
+                    i&apos;m studying cs and biophysics at usc i&apos;m studying
+                    cs and biophysics at usc.
+                </p>
+                <div style={{ height: '25px' }} />
+                <p>
+                    i am currently taking a gap semester in sf to build{' '}
                     <Link
                         href="https://algorhythm.app"
                         target="_blank"
                         style={{
-                            color: isDarkMode ? '#ffffff' : '#000000',
+                            color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
+                            fontWeight: 500,
                             textDecoration: 'underline',
                         }}
                     >
@@ -129,7 +157,8 @@ export default function Home() {
                         href="https://docs.krav.trade"
                         target="_blank"
                         style={{
-                            color: isDarkMode ? '#ffffff' : '#000000',
+                            color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
+                            fontWeight: 500,
                             textDecoration: 'underline',
                         }}
                     >

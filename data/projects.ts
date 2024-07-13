@@ -1,14 +1,14 @@
 export const projects = [
     {
         status: 'active',
-        title: 'Compiler from Scratch',
+        title: 'Rust Compiler',
         date: 'July 2024',
         github: 'https://github.com/c-gamble/rs-cpp-compiler',
         demo: '',
         visit: '',
         description:
-            "I'm teaching myself about low-level operations by building a C++ compiler from scratch in Rust.",
-        skills: ['rust', 'low-level', 'c++'],
+            "I'm teaching myself about low-level operations by building a compiler from scratch in Rust.",
+        skills: ['rust', 'low-level'],
     },
     {
         status: 'active',

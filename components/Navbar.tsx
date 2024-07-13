@@ -44,7 +44,7 @@ export const Navbar = () => {
     const isActive = (path: string) => pathname === path;
 
     const backgroundStyle = isDarkMode
-        ? '#000000'
+        ? '#1c1c1c'
         : 'linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%)';
 
     useEffect(() => {
@@ -66,7 +66,7 @@ export const Navbar = () => {
         <motion.div
             style={{
                 background: isDarkMode
-                    ? '#000000'
+                    ? '#1c1c1c'
                     : 'linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%)',
                 height: '100px',
                 display: 'flex',
@@ -77,7 +77,7 @@ export const Navbar = () => {
                 paddingBottom: '20px',
                 justifyContent: 'center',
                 alignItems: 'center',
-                color: isDarkMode ? '#ffffff' : '#000000',
+                color: isDarkMode ? '#FFF5EA' : '#1c1c1c',
             }}
         >
             <motion.div
@@ -115,7 +115,7 @@ export const Navbar = () => {
                                 fontSize: '24px',
                                 fontWeight: 'bold',
                                 height: '33%',
-                                color: isDarkMode ? '#ffffff' : '#000000',
+                                color: isDarkMode ? '#FFF5EA' : '#1c1c1c',
                             }}
                         >
                             cooper gamble
@@ -260,7 +260,7 @@ export const Navbar = () => {
                     padding: '20px',
                     justifyContent: 'space-between',
                     alignItems: 'center',
-                    color: isDarkMode ? '#ffffff' : '#000000',
+                    color: isDarkMode ? '#FFF5EA' : '#1c1c1c',
                 }}
             >
                 <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -356,7 +356,7 @@ export const Navbar = () => {
                             style={{
                                 width: '24px',
                                 height: '3px',
-                                background: isDarkMode ? '#ffffff' : '#000000',
+                                background: isDarkMode ? '#FFF5EA' : '#1c1c1c',
                                 marginBottom: '5px',
                             }}
                         ></div>
@@ -364,7 +364,7 @@ export const Navbar = () => {
                             style={{
                                 width: '24px',
                                 height: '3px',
-                                background: isDarkMode ? '#ffffff' : '#000000',
+                                background: isDarkMode ? '#FFF5EA' : '#1c1c1c',
                                 marginBottom: '5px',
                             }}
                         ></div>
@@ -372,7 +372,7 @@ export const Navbar = () => {
                             style={{
                                 width: '24px',
                                 height: '3px',
-                                background: isDarkMode ? '#ffffff' : '#000000',
+                                background: isDarkMode ? '#FFF5EA' : '#1c1c1c',
                             }}
                         ></div>
                     </button>
@@ -427,7 +427,7 @@ export const Navbar = () => {
                                     border: 'none',
                                     fontSize: '24px',
                                     cursor: 'pointer',
-                                    color: isDarkMode ? '#ffffff' : '#000000',
+                                    color: isDarkMode ? '#FFF5EA' : '#1c1c1c',
                                 }}
                             >
                                 ×
@@ -452,8 +452,8 @@ export const Navbar = () => {
                                             fontSize: '20px',
                                             fontWeight: '600',
                                             color: isDarkMode
-                                                ? '#ffffff'
-                                                : '#000000',
+                                                ? '#FFF5EA'
+                                                : '#1c1c1c',
                                             textAlign: 'left',
                                             textDecoration: isActive(
                                                 `/${

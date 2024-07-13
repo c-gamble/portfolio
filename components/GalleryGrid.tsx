@@ -60,7 +60,7 @@ export function GalleryGrid() {
                                 >
                                     <p
                                         style={{
-                                            color: '#ffffff',
+                                            color: '#FFF5EA',
                                             textAlign: 'center',
                                             fontSize: '14px',
                                         }}

@@ -12,14 +12,14 @@ export const Footer = () => {
         <motion.div
             style={{
                 background: isDarkMode
-                    ? '#000000'
+                    ? '#1c1c1c'
                     : 'linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%)',
                 display: 'flex',
                 flexDirection: 'column',
                 height: '50px',
                 justifyContent: 'center',
                 alignItems: 'center',
-                color: isDarkMode ? '#ffffff' : '#000000',
+                color: isDarkMode ? '#FFF5EA' : '#1c1c1c',
             }}
         >
             <p>© 2024 Cooper Gamble</p>
