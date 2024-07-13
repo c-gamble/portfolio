@@ -13,7 +13,7 @@ interface ThemeStore {
 }
 
 export const useGlobalStore = create<ThemeStore>((set) => ({
-    isDarkMode: false,
+    isDarkMode: true,
     windowDimensions: {
         width: typeof window !== 'undefined' ? window.innerWidth : 0,
         height: typeof window !== 'undefined' ? window.innerHeight : 0,
