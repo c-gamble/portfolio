@@ -135,8 +135,7 @@ export default function Home() {
                     >
                         Cooper.
                     </span>{' '}
-                    i&apos;m studying cs and biophysics at usc i&apos;m studying
-                    cs and biophysics at usc.
+                    i&apos;m studying cs and biophysics at usc.
                 </p>
                 <div style={{ height: '25px' }} />
                 <p>
