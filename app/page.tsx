@@ -46,7 +46,7 @@ export default function Home() {
                     >
                         Cooper.
                     </span>{' '}
-                    i&apos;m studying cs and biophysics at usc.
+                    i&apos;m studying cs and physics at usc.
                 </p>
                 <div style={{ height: '25px' }} />
                 <p>
@@ -64,7 +64,7 @@ export default function Home() {
                     </Link>{' '}
                     and work at{' '}
                     <Link
-                        href="https://docs.krav.trade"
+                        href="https://doxa.market"
                         target="_blank"
                         style={{
                             color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
@@ -72,7 +72,7 @@ export default function Home() {
                             textDecoration: 'underline',
                         }}
                     >
-                        krav
+                        doxa
                     </Link>
                     .
                 </p>
@@ -135,7 +135,7 @@ export default function Home() {
                     >
                         Cooper.
                     </span>{' '}
-                    i&apos;m studying cs and biophysics at usc.
+                    i&apos;m studying cs and physics at usc.
                 </p>
                 <div style={{ height: '25px' }} />
                 <p>
@@ -153,7 +153,7 @@ export default function Home() {
                     </Link>{' '}
                     and work at{' '}
                     <Link
-                        href="https://docs.krav.trade"
+                        href="https://doxa.market"
                         target="_blank"
                         style={{
                             color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
@@ -161,7 +161,7 @@ export default function Home() {
                             textDecoration: 'underline',
                         }}
                     >
-                        krav
+                        doxa
                     </Link>
                     .
                 </p>
