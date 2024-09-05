@@ -94,7 +94,7 @@ export default function Home() {
                     unfortunately, coding this portfolio has brought me no
                     closer to the answer, but i certainly had fun! and i think
                     it&apos;s nice to have a little corner of the internet to
-                    call my own
+                    call my own.
                 </p>
             </motion.div>
         </motion.div>
@@ -183,7 +183,7 @@ export default function Home() {
                     unfortunately, coding this portfolio has brought me no
                     closer to the answer, but i certainly had fun! and i think
                     it&apos;s nice to have a little corner of the internet to
-                    call my own
+                    call my own.
                 </p>
             </motion.div>
             <div style={{ height: '40px' }} />
