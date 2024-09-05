@@ -12,8 +12,13 @@ import Reunion from '../public/assets/images/gallery/reunion.jpeg';
 import SpringBreakSunset from '../public/assets/images/gallery/spring-break-sunset.jpeg';
 import SpringBreak from '../public/assets/images/gallery/spring-break.jpeg';
 import UCLADual from '../public/assets/images/gallery/ucla-dual.jpeg';
+import ZachBryan from '../public/assets/images/gallery/zach-bryan.jpeg';
 
 export const galleryList = [
+    {
+        image: ZachBryan,
+        description: 'zach bryan concert with kaitlin!',
+    },
     {
         image: MissionPeak,
         description:
