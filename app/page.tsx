@@ -64,7 +64,7 @@ export default function Home() {
                     </Link>{' '}
                     and work at{' '}
                     <Link
-                        href="https://doxa.market"
+                        href="https://x.com/noise_xyz"
                         target="_blank"
                         style={{
                             color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
@@ -72,7 +72,7 @@ export default function Home() {
                             textDecoration: 'underline',
                         }}
                     >
-                        doxa
+                        noise
                     </Link>
                     .
                 </p>
@@ -153,7 +153,7 @@ export default function Home() {
                     </Link>{' '}
                     and work at{' '}
                     <Link
-                        href="https://doxa.market"
+                        href="https://x.com/noise_xyz"
                         target="_blank"
                         style={{
                             color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
@@ -161,7 +161,7 @@ export default function Home() {
                             textDecoration: 'underline',
                         }}
                     >
-                        doxa
+                        noise
                     </Link>
                     .
                 </p>
