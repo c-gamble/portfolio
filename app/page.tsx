@@ -50,19 +50,7 @@ export default function Home() {
                 </p>
                 <div style={{ height: '25px' }} />
                 <p>
-                    i am currently taking a gap semester in sf to build{' '}
-                    <Link
-                        href="https://algorhythm.app"
-                        target="_blank"
-                        style={{
-                            color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
-                            fontWeight: 500,
-                            textDecoration: 'underline',
-                        }}
-                    >
-                        algorhythm
-                    </Link>{' '}
-                    and work at{' '}
+                    i am currently taking a gap semester in sf to work at{' '}
                     <Link
                         href="https://x.com/noise_xyz"
                         target="_blank"
@@ -139,19 +127,7 @@ export default function Home() {
                 </p>
                 <div style={{ height: '25px' }} />
                 <p>
-                    i am currently taking a gap semester in sf to build{' '}
-                    <Link
-                        href="https://algorhythm.app"
-                        target="_blank"
-                        style={{
-                            color: `#${process.env.NEXT_PUBLIC_ACCENT_COLOR}`,
-                            fontWeight: 500,
-                            textDecoration: 'underline',
-                        }}
-                    >
-                        algorhythm
-                    </Link>{' '}
-                    and work at{' '}
+                    i am currently taking a gap semester in sf to work at{' '}
                     <Link
                         href="https://x.com/noise_xyz"
                         target="_blank"
