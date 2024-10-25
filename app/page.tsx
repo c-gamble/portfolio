@@ -50,7 +50,7 @@ export default function Home() {
                 </p>
                 <div style={{ height: '25px' }} />
                 <p>
-                    i am currently taking a gap semester in sf to work at{' '}
+                    i am currently on leave from usc (in sf) to work at{' '}
                     <Link
                         href="https://x.com/noise_xyz"
                         target="_blank"
@@ -127,7 +127,7 @@ export default function Home() {
                 </p>
                 <div style={{ height: '25px' }} />
                 <p>
-                    i am currently taking a gap semester in sf to work at{' '}
+                    i am currently on leave from usc (in sf) to work at{' '}
                     <Link
                         href="https://x.com/noise_xyz"
                         target="_blank"
